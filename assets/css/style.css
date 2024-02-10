@@ -123,6 +123,43 @@ section span#me{
   font-size: 65px;
 }
 
-@media only and screen (){
+@media only screen and (max-width: 768px) {
+  main{
+    min-height: 550px;
+    min-width: 325px;
+  }
+
+  .calculator {  
+    justify-content: center;
+    flex-direction: column;
+    min-height: 200px;
+    max-width: 300px;
+    background: transparent;
+  }
+
+  .form div{
+    display: flex;
+    margin-right: 10px;
+    font-weight: bold;
+  }
   
+  div label {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  div input {
+    max-width: 60px;
+    min-height: 30px;
+    border: 2px solid rgba(172, 172, 172, 0.644);
+    text-indent: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+
+  hr {
+    margin: 30px 0;
+  }
 }
