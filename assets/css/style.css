@@ -75,6 +75,25 @@ div input {
   flex-direction: column;
 }
 
+#conteiner-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+button {
+  border-radius: 50%;
+  min-width: 50px;
+  min-height: 50px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  background-color: #8829e7;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.247);
+}
+
 hr {
   margin-top: 15px;
   color: #000;
