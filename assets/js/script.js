@@ -51,7 +51,7 @@ function executar() {
     ageDays += lastMonthDate.getDate();
   }
 
-  result_mes.textContent = ageDays;
-  result_dia.textContent = ageMonths;
+  result_mes.textContent = ageMonths;
+  result_dia.textContent = ageDays;
   result_ano.textContent = ageYears;
 }
