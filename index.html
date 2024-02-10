@@ -4,36 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AGE CALCULATOR</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <section class="calculator">
-    <section class="form">
-      <label for="input">DAY</label>
-      <input type="number">
-
-      <label for="input">MONTH</label>
-      <input type="number">
-
-      <label for="input">YEAR</label>
-      <input type="number">
-    </section>
-
-    <hr>
+  <main>
+    <section class="calculator">
+      <section class="form">
+        <div class="input-day">
+          <label for="input">DAY</label>
+          <input type="number">
+        </div>
+        <div class="input-month">
+          <label for="input">MONTH</label>
+          <input type="number">
+        </div>
+        <div style="margin-right: 0;" class="input-year">
+          <label for="input">YEAR</label>
+          <input type="number">
+        </div>
+      </section>
+      <hr>
     
-    <section class="y">
-      <span>00</span>
-      <span>years</span>
+      <section class="y">
+        <span id="ano">00</span>
+        <span>years</span>
+      </section>
+      <section class="m">
+        <span id="mes">00</span>
+        <span>months</span>
+      </section>
+      <section class="d">
+        <span id="dia">00</span>
+        <span>days</span>
+      </section>
     </section>
+  </main>
 
-    <section class="m">
-      <span>00</span>
-      <span>months</span>
-    </section>
-
-    <section class="d">
-      <span>00</span>
-      <span>days</span>
-    </section>
-  </section>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
